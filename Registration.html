@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Home</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel='stylesheet' type='text/css' href='style1.css'>
+    <link rel='stylesheet' type='text/css' href='style2.css'>
+    <script src='script.js' defer></script>
+</head>
+
+
+<body>
+    <div>
+
+        <div class="header">
+            <a href="main.html" target="main.html"><img src="./assets/logo-removebg-preview.png" id="logo"></a>
+            </div>
+            
+            <div class="navigation">
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="Product.html">Product</a></li>
+                    <li><a href="Registration.html">Registration</a></li>
+                    <li><a href="#">About Us</a>
+                        <ul>
+                            <li><a href="Company Profile.html">Company Profile</a></li>
+                            <li><a href="Contact Us.html">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <input type="text" placeholder="Type Here">
+                    <button type="submit">Search</button>
+                </ul>
+
+            </div>    
+            <br><br><br>
+            <div >
+                <center>
+                    <form action="home.html" id="myForm">
+                        <h2>Registration Form</h2>
+                        <br><br>
+                        <table>
+                            <!-- Name -->
+                            <tr>
+                                <td> Username </td>
+                                <td> 
+                                    <input type="text" name="usernameTxt" >
+                                    </td>
+                            </tr>
+            
+                            <!-- Username -->
+                            <tr>
+                                <td> Email </td>
+                                <td> 
+                                <input type="text" name="emailTxt" >
+                                </td>
+                            </tr>
+            
+                            <!-- Gender -->
+                            <tr>
+                                <td>Gender</td>
+                                <td><input type="radio" name="gender" value="Male">Male</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><input type="radio" name="gender" value="Female">Female</td>
+                            </tr>
+            
+                            <!-- Address -->
+                            <tr>
+                                <td>Address</td>
+                                <td><textarea name="addressTxt" cols="30" rows="10"></textarea></td>
+                            </tr>
+            
+                            <!-- Nationality -->
+                            <tr>
+                                <td> City </td>
+                                <td> 
+                                    <select name="cityTxt" id="">
+                                        <option value="">--SELECT CITY--</option> 
+                                        <option value="Surabaya">Surabaya</option>
+                                        <option value="Bandung">Bandung</option>
+                                        <option value="Jakarta">Jakarta</option>
+                                    </select>
+                                </td>
+                            </tr>
+            
+                            <!-- Agree -->
+                            <tr>
+                                <td colspan="2"> 
+                                    <input type="checkbox" name="agree" value="true" id="agree" > 
+                                    <label for="agree">I agree to the term and conditions </label>
+                                </td>
+                            </tr>
+            
+                            <!-- errorMessage -->
+                            <tr>
+                                <td colspan="2">
+                                    <p id="errorMessage"></p>
+                                </td>
+                            </tr>
+            
+                            <!-- Button -->
+                            <tr>
+                                <td colspan="2" style="text-align: center;">
+                                    <button type="submit">
+                                        Registration
+                                    </button>
+                                </td>
+                            </tr>
+            
+                        </table>
+                    </form>
+                </center>
+               <br><br><br><br><br>
+            </div>
+            <br><br>
+                <div class="footer">
+                    <a href="https://www.instagram.com/"><img src="./assets/ig.png"></a>  
+                    <a>@zunderzifflin</a>
+                    <a href="https://id-id.facebook.com/"><img src="./assets/fb.png"></a>
+                    <a>@zunder_zifflin</a>
+                </div>
+
+        </div>
+
+
+    
+    
+</body>
+</html>

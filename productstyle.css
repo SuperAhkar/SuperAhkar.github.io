@@ -1,0 +1,19 @@
+.valorant{
+    box-shadow: 10px 18px 22px 10px rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.valorant>img{
+
+    height: 200px;
+    width: 200px;
+}
+
+@media(max-width:800px){
+    .valorant>img{
+        display: block;
+    }
+}

@@ -1,0 +1,54 @@
+.contact{
+  position: relative;
+  min-height: 50vh;
+  padding: 50px 100px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #AEA4BF;
+  background-size: cover;
+}
+
+.contact .content{
+  max-width: 800px;
+  text-align: center;
+}
+
+.contact .content h2{
+  font-size: 36px;
+  font-weight: 500;
+  color: #3B252C;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+  @media(max-widht:800px)
+  {
+    .contact{
+      padding: 50px;
+    }
+
+    .container{
+      flex-direction: column;
+    }
+
+    .conatiner .contactInfo{
+      margin-bottom: 40px;
+    }
+
+    .container .contactInfo{
+      width: 100%;
+    }
+
+  }
+
+  
